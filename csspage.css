@@ -1,0 +1,67 @@
+
+  
+
+.navli{
+    color: #111;
+    padding: 14px;
+    display: inline;
+   
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    
+}
+.t{
+    background-color:#458FF6;
+    border-radius: 60px;
+    width: 29px;
+    text-align:center ;
+    
+ 
+
+}
+.trafalgar{
+ 
+
+color: #233348;
+
+
+}
+
+
+.text2{
+    width:256px;
+   
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #458FF6;
+   text-align: center;
+    width: 122px;
+    height: 26px;
+    
+    border-radius: 22px;
+}
+.img1{
+height: 266px;
+width: 350px;
+display: inline;
+}
+.srs{
+    text-align: center;
+}
+.rect{
+    text-align: center;
+}
+.text3{
+    text-align: center;
+    font-size: 11px;
+    
+}
