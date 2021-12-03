@@ -265,13 +265,18 @@ body{
     margin-top: 126px;
 }
 .customer-bg-img{
+    /* image: url("../images/image 1.svg") no-repeat top -185px left -6.18%; */
     margin-top: 266px;
     width: 1120px;
     height: 425px;
     border-radius: 24px;
     position: relative;
-   
     color: white;
+
+}
+.customer-right-dot{
+    position: absolute;
+    left:1036px ;
 
 }
 .customer-head{
@@ -281,6 +286,17 @@ body{
     font-size: 36px;
     font-weight: 700px;
 }
+.customer-img{
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    border-radius: 82px;
+    border: 3px solid ;
+    left: 117px;
+    top: 205px;
+
+}
+
 .customer-msg{
     position: absolute;
     top: 216px;
@@ -290,7 +306,7 @@ body{
 .customer-name{
     position: absolute;
     top: 236px;
-    left: 237px;
+    left: 287px;
     font-size: 22px;
 }
 .customer-details{
@@ -298,6 +314,88 @@ body{
     top: 268px;
     left: 288px;
     font-size: 18px;
+}
+.customer-left-dot{
+    position: absolute;
+    right:1040px ;
+    top: 271px;
+    /* opacity: 30; */
 
 }
-
+.customer-arrow{
+    position:absolute;
+    left: 427px;
+    top: 483px;
+}
+.articles-title{
+    position: relative;
+    top: 222px;
+    text-align: center;
+    font-size: 36px;
+}
+/* .articles-rectangle{
+    position: absolute;
+    left: 772px;
+    top: 26px;
+}  */
+.articles{
+    display: flex;
+    justify-content: center;
+    margin-top: 223px;
+}
+.art{
+    display: flex;
+    border-radius: 20px;
+    padding: 54px 0  36px;
+    left: 233px;
+    top: 733px;
+    grid-gap: 37px 34px;
+}
+.articles-box{
+    max-width: 350px;
+    max-height: 512px;
+}
+.articles-img{
+    border-radius: 22px;
+}
+.articles-img-title{
+    line-height: 32px;
+    font-size: 21px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 21px;
+}
+.articles-img-description{
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 600px;
+    color:  #7D7987;
+    margin-top: 12px;
+}
+.articles-btn{
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+color: #458FF6;
+background: #ffffff;
+line-height: 60px;
+width: 200px;
+height: 56px;
+margin-top: 25px;
+}
+.view-btn{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #458FF6;
+    background: #ffffff;
+    line-height: 60px;
+    width: 200px;
+    height: 56px;
+    margin-top: 69px;
+    align-self: center;
+    border: 1.4px solid #458FF6;
+    box-sizing: border-box;
+    border-radius: 55px;
+    margin-left: 509px;
+}
